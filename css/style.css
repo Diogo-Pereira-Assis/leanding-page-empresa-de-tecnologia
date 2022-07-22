@@ -1,0 +1,561 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+.center{
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+header{
+	background-image: url('../imagens/capa.png');
+	width: 100%;
+	height: 100%;
+	padding: 0 4%;
+	max-height: 800px;
+	background-position: center;
+	background-size: cover;
+}
+
+header .logo{
+	width: 120px;
+	height: 40px;
+	background-color: #ccc;
+	margin: 40px 10px;
+	float: left;
+}
+
+
+
+.menu-mobile{
+	display: none;
+}
+.menu-mobile ul{
+	display: none;
+	margin-top: 110px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	width: 100%;
+	border-bottom: 1px solid black;
+
+}
+
+.menu-mobile li{
+	border-bottom: 1px solid #ccc;
+
+}
+
+.menu-mobile nav{
+	cursor: pointer;
+	margin-top: 30px;
+	float: right;
+	width: 40px;
+	height: 40px;
+	background-size:100% 100%;
+	background-image: url('../imagens/menu.mob.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+
+
+
+
+
+header ul{
+	float: right;
+
+
+}
+
+.menu-desktop nav ul li{
+list-style-position: none;
+}
+.menu-desktop nav ul li{
+	margin: 40px 30px;
+	display: inline-block;
+
+}
+.menu-desktop nav ul li a{
+text-decoration: none;
+color: white;
+}
+
+header .chamada{
+	display: inline-block;
+	float: right;
+	height: auto;
+	margin: 190px 100px;
+	max-width: 500px;
+}
+
+.chamada h2{
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.chamada p{
+margin-top: 10px;
+ color: white;
+ font-weight: normal;
+}
+
+.section-1{
+	width: 100%;
+	height: 400px;
+	padding: 0 2%;
+	background-color: #342445;
+}
+
+
+
+.lado1{
+	position: relative;
+	left: 170px;
+	width: 50%;
+	float: left;
+	margin-top: 40px;
+	padding-left: 50px;
+	height: 430px; 
+	
+}
+.lado1 h2{
+	margin: 20px 0;
+	color: white;
+	font-size: 27px;
+	font-weight: 300;
+}
+
+.lado1 p{
+	color: white;
+}
+
+
+nav ul, li{
+	margin-top: 10px;
+	font-size: 18px;
+	color: white;
+	list-style-position: inside;
+}
+
+.botao{
+	width: 140px;
+	height: 50px;
+	background-color: orange;
+	margin: 16px 0;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+	line-height: 44px;
+	/*Nova abilidade line-heigth*/
+}
+
+.lado2{
+	position: relative;
+	top: -30px;
+	width: 50%;
+	float: left;
+	height: 430px;
+	background-image: url('../imagens/device.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.section-2{
+	padding:0 2%;
+	text-align: center;
+}
+section .texto-section2{
+	width: 100%;
+	max-width: 900px;
+	text-align: center;
+	display: inline-block;
+}
+
+.texto-section2 h2{
+	font-weight: 300;
+	color: #391652;
+	margin-bottom: 20px;
+}
+
+.section-2 img{
+	width: 100%;
+	max-width: 1280px;
+	margin-top: 30px;
+	padding: 0 2%;
+	position: relative;
+	top: 70px;
+}
+
+.section-3{
+	width: 100%;
+}
+
+.dark-side{
+width: 50%;
+float: left;
+background-color: #702dbd;
+padding: 90px;
+}
+.text-dark{
+	max-width: 600px;
+	float: right;
+}
+
+.dark-side .text-dark h2{
+	color: white;
+	font-weight: 300px;
+	margin-bottom: 20px;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.dark-side .text-dark p{
+	line-height: 24px;
+	font-weight: 300px;
+	color: white;
+	font-style: italic;
+	font-size: 17px;
+
+}
+
+.light-side{
+	float: left;
+	width: 50%;
+	padding-top: 0px;
+
+}
+.text-ligth{
+	padding: 90px 40px;
+	max-width: 500px;
+}
+
+.text-ligth h2{
+	font-weight: 300px;
+	margin-bottom: 5px;
+	font-style: italic;
+	font-size: 25px;
+	color: #4f4e4f;
+
+}
+.autor{
+	display: inline-block;
+}
+.autor p{
+	font-weight: 300px;
+	font-style: italic;
+	font-size: 17px;
+	color: #6b6a6a;
+}
+
+.img-autor{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #ccc;
+	display: inline-block;
+	position: relative;
+	top: 13px;
+	margin-left: 10px;
+}
+
+.description-autor p{
+	color: #6d686e;
+	margin-top: 10px;
+	font-weight: 300px;
+	margin-bottom: 20px;
+	font-style: italic;
+	font-size: 17px;
+
+}
+
+.bolets span{
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	float: left;
+	background-color: grey;
+	margin-right: 10px;
+}
+.section-4{
+	width: 100%;
+	padding: 10px;
+	background-color: #342445
+}
+
+.form-side{
+	width: 50%;
+	float: left;
+	padding: 10px;
+	max-width: 500px;
+	
+	
+}
+
+.mapa-side{
+	width: 50%;
+	float: left;
+	padding: 10px;
+	
+
+}
+
+.form-side .texto-form-side {
+	padding: 20px;
+
+}
+
+.form-side .input-form-side{
+	padding: 20px;
+
+}
+
+.form-side h2{
+	color: white;
+	font-weight: 300;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.form-side p{
+	color: white;
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 9px;
+}
+
+.input-form-side input{
+display: inline-block;
+width: 80%;
+padding: 10px 15px;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+}
+
+.input-form-side textarea{
+	width: 80%;
+	height: 200px;
+	padding: 5px 10px;
+	vertical-align: top;
+}
+
+.input-form-side .botao{
+	background-color: #c28242;
+	font-weight: bold;
+	width: 100px;
+	height: 40px;
+}
+
+.input-form-side .botao:hover{
+	background-color: #db954f;
+	cursor: pointer;
+}
+
+.mapa-side {
+	float: right;
+	padding: 35px 0px;
+	text-align: center;
+}
+
+.texto-mapa-side h2{
+	font-size: 28px;
+	color: white;
+	font-weight: 300;
+	margin-bottom:30px ;
+	
+}
+
+.mapa-side .mapa{
+display: inline-block;
+	width: 70%;
+	padding-top: 300px;
+	border: 5px solid rgb(200, 200, 200);
+	background-color: white;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: #1a151c;
+	padding: 3px;
+}
+
+footer p{
+	color: white;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 800px){
+
+.menu-desktop{
+	display: none;
+}
+
+.menu-mobile nav:hover ul{
+display: block;
+opacity: 1;
+}
+
+
+
+.menu-mobile{
+	display: block;
+}
+
+.menu-mobile ul li, a{
+	display: block;
+	list-style-position: inside;
+	text-decoration: none;
+	color: black;
+}
+
+
+header{
+	height: auto;
+	padding: 40px 4%;
+	text-align: center;
+}
+
+header .chamada{
+	display: inline-block;
+	float: none;
+	text-align: center;
+	margin:190px 2%;
+	max-width: none;
+}
+
+
+.section-1{
+	width: 100%;
+	text-align: center;
+
+}
+
+
+
+.lado1{
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	float: none;
+	margin-top: 40px;
+	padding-left: 0;
+	
+}
+
+
+.botao{
+	display: inline-block;
+}
+
+.lado2{
+	position: none;
+	width: 0;
+	height: 0;
+	float: none;
+	height: 430px;
+}
+
+.section-2 img{
+	position: static;
+}
+
+
+.dark-side{
+
+display: inline-block;
+width: 100%;
+float: none;
+padding: 50px 2%;
+}
+
+.text-dark{
+	text-align: center;
+	display: inline-block;
+	max-width: 600px;
+	float: none;
+}
+
+
+.light-side{
+	display: inline-block;
+	float: none;
+	width: 100%;
+	padding-top: 0px;
+
+}
+
+.section-4{
+	width: 100%;
+	padding: 10px;
+	background-color: #342445;
+	display: inline-block;
+	text-align: center;
+
+}
+
+
+.form-side{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	float: none;
+	padding: 10px 2%;
+	max-width: 500px;
+	
+	
+}
+
+.mapa-side{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	float: none;
+	padding: 10px;
+	
+
+}
+
+
+.form-side .texto-form-side {
+	padding: 0px 0px;
+
+}
+
+.form-side .input-form-side{
+	padding: 20px 0;
+
+}
+
+
+
+.mapa-side .mapa{
+display: inline-block;
+	width: 70%;
+	max-width: 300px;
+	padding-top: 300px;
+	border: 5px solid rgb(200, 200, 200);
+	background-color: white;
+}
+
+
+
+}
+
